@@ -3,54 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ana Gonzalez-Nayeck | Baruch College, CUNY</title>
+    <title>Baruch Microbial Biogeochemistry Lab | Baruch College, CUNY</title>
+    <meta name="description" content="The Baruch Microbial Biogeochemistry Lab at Baruch College (CUNY) studies the products of photosynthesis and how they affect ancient and modern ecosystems, from oyster restoration in the Hudson River to proxies for past atmospheric CO2.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <div class="nav-container">
-            <a href="index.html" class="nav-name">Ana Gonzalez-Nayeck</a>
+            <a href="index.html" class="nav-name">Baruch Microbial Biogeochemistry Lab</a>
             <div class="nav-links">
-                <a href="index.html" class="active">About</a>
+                <a href="index.html" class="active">Home</a>
                 <a href="research.html">Research</a>
+                <a href="team.html">Team Members</a>
+                <a href="collaborators.html">Collaborators</a>
                 <a href="publications.html">Publications</a>
                 <a href="teaching.html">Teaching</a>
+                <a href="outreach.html">Outreach &amp; Media</a>
+                <a href="join.html">Join the Lab</a>
                 <a href="contact.html">Contact</a>
             </div>
         </div>
     </nav>
 
     <main>
-        <section class="hero">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Ana Gonzalez-Nayeck</h1>
-                    <p class="title">Assistant Professor of Environmental Science</p>
-                    <p class="affiliation">Natural Sciences Department<br>Baruch College, City University of New York</p>
+        <section class="hero" aria-labelledby="lab-heading">
+            <div class="hero-text">
+                <h1 id="lab-heading">Baruch Microbial Biogeochemistry Lab</h1>
+                <p class="affiliation">Department of Natural Sciences, Baruch College, City University of New York</p>
+                <p class="home-mission">We study the products of photosynthesis and how they affect natural environments, in both ancient and modern ecosystems. Using the tools of stable-isotope biogeochemistry, our undergraduate researchers follow carbon through microbial communities both ancient and modern. We collaborate with the <a href="https://hurley.ldeo.columbia.edu/">Microbial Evolution and Biogeochemistry Lab</a> at the Lamont-Doherty Earth Observatory of Columbia University and the <a href="https://hudsonriverpark.org/the-park/parks-river-project/">Hudson River Park Trust&rsquo;s River Project</a>.</p>
+            </div>
+            <div class="carousel" aria-roledescription="carousel" aria-label="Photos from the lab">
+                <div class="carousel-track">
+                    <figure class="carousel-slide is-active">
+                        <img src="images/carousel/mane-geobiology-2026.jpg" alt="Lab members smiling in front of the MANE Geobiology Symposium 2026 title slide">
+                        <figcaption>Lab members at the 2026 Mid-Atlantic &amp; NorthEast (MANE) Geobiology Symposium, Rowan University</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                        <img src="images/carousel/cyanobacteria-cultures.jpg" alt="Flasks of cyanobacteria cultures in a laboratory hood, some green with growth and some still clear">
+                        <figcaption>Cultures of the cyanobacterium <em>Synechococcus</em> sp. PCC 7002. Photo: Sarah Hurley</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                        <img src="images/carousel/oyster-reef-ball-hudson.jpg" alt="A reef ball covered in oysters on the Hudson River waterfront, with Little Island in the background">
+                        <figcaption>Oysters on a reef ball at Hudson River Park. Photo: Ana Gonzalez-Nayeck</figcaption>
+                    </figure>
                 </div>
-                <div class="hero-photo">
-                    <div class="photo-placeholder">Photo</div>
+                <button type="button" class="carousel-btn carousel-prev" aria-label="Previous photo">&#8249;</button>
+                <button type="button" class="carousel-btn carousel-next" aria-label="Next photo">&#8250;</button>
+                <div class="carousel-controls">
+                    <div class="carousel-dots"></div>
+                    <button type="button" class="carousel-pause">Pause</button>
                 </div>
             </div>
         </section>
 
-        <section class="about">
-            <h2>About</h2>
-            <p>I am an Assistant Professor of Environmental Science in the Natural Sciences Department at Baruch College, City University of New York. My research interests span biogeochemistry, astrobiology, and geobiology.</p>
+        <section class="themes" aria-labelledby="themes-heading">
+            <h2 id="themes-heading">Our Current Research Themes</h2>
+            <div class="home-cards">
+                <article class="home-card">
+                    <h3><a href="research.html#carbon-allocation">Carbon allocation in photosynthetic microbes</a></h3>
+                    <p>Photosynthetic microbes divide the carbon they take up among proteins, lipids, and sugars, and release some of it back into the environment. We grow marine phytoplankton and cyanobacteria under controlled conditions to learn how these choices shift their carbon isotope signal, which underlies a proxy for past atmospheric CO<sub>2</sub>.</p>
+                    <p><a href="research.html#carbon-allocation">More on this theme &rarr;</a></p>
+                </article>
+                <article class="home-card">
+                    <h3><a href="research.html#oysters">Microbes and oyster restoration in the Hudson River</a></h3>
+                    <p>Microbial biofilms coat underwater surfaces and are thought to help young oysters attach and grow. With the Hudson River Park Trust&rsquo;s River Project, we study the biofilms on miniature reef balls beside the Gansevoort salt marsh to learn why seeded oysters persist better in some settings than others.</p>
+                    <p><a href="research.html#oysters">More on this theme &rarr;</a></p>
+                </article>
+            </div>
         </section>
 
-        <section class="interests">
-            <h2>Research Interests</h2>
+        <section class="pi" aria-labelledby="pi-heading">
+            <h2 id="pi-heading">Meet the PI</h2>
+            <div class="home-pi">
+                <img src="images/ana-gonzalez-nayeck.jpg" alt="Dr. Ana Gonzalez-Nayeck" width="800" height="1000">
+                <div>
+                    <h3><a href="ana.html">Dr. Ana Gonzalez-Nayeck</a>, Principal Investigator</h3>
+                    <p class="affiliation">Assistant Professor of Environmental Science, Baruch College, CUNY</p>
+                    <p>Dr. Gonzalez-Nayeck founded the lab after joining Baruch in 2023, and uses carbon stable isotopes and microbial community composition to read environmental conditions in ancient and modern ecosystems.</p>
+                    <p><a href="ana.html">Read more &rarr;</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="news" aria-labelledby="news-heading">
+            <h2 id="news-heading">News</h2>
+            <h3>From the lab</h3>
             <ul>
-                <li>Biogeochemistry</li>
-                <li>Astrobiology</li>
-                <li>Geobiology</li>
+                <li><strong>Mar 2026</strong> &mdash; Our report on microbial communities and oyster reef habitats for the Hudson River Park Trust is <a href="https://hudsonriverpark.org/app/uploads/2026/03/GonzalezNayeck_Final_Report_HRPT_2026.pdf">published on the Hudson River Park website</a> (PDF).</li>
+                <li><strong>Jul 2025</strong> &mdash; A lab member presented our work on cyanobacterial carbohydrates and carbon isotopes at the Goldschmidt Conference in Prague, Czechia.</li>
             </ul>
+            <h3>From our PI</h3>
+            <ul>
+                <li><strong>Aug 2026</strong> &mdash; Dr. Gonzalez-Nayeck became a Co-Director of the CUNY Research Scholars Program &ndash; Climate Scholars.</li>
+                <li><strong>Jul 2026</strong> &mdash; Dr. Gonzalez-Nayeck presented &ldquo;Life on Mars?&rdquo; at the Museum of the Moving Image, as part of <em>First Contact: Alien Encounters in Science and Fiction</em>. <a href="outreach.html">Outreach &amp; Media</a></li>
+                <li><strong>Mar 2026</strong> &mdash; Dr. Gonzalez-Nayeck presented &ldquo;From Mars to the Hudson River&rdquo; at Science After Dark: Ask a Scientist, Hudson River Park&rsquo;s Discovery Tank at Pier 57. <a href="outreach.html">Outreach &amp; Media</a></li>
+                <li><strong>Jan 2026</strong> &mdash; Dr. Gonzalez-Nayeck gave the keynote at the Gordon Research Seminar in Geobiology in Ventura, California.</li>
+            </ul>
+        </section>
+
+        <section class="join" aria-labelledby="join-heading">
+            <h2 id="join-heading">Join the Lab</h2>
+            <div class="home-cta">
+                <p>The lab is currently taking only 2&ndash;4 independent study students for Spring 2027. You can express interest in future semesters or a senior thesis using the interest form on the <a href="join.html">Join the Lab</a> page.</p>
+            </div>
+        </section>
+
+        <section class="partners" aria-labelledby="partners-heading">
+            <h2 id="partners-heading">Partners &amp; Support</h2>
+            <p>Hudson River Park Trust &middot; Lamont-Doherty Earth Observatory of Columbia University &middot; CUNY Advanced Science Research Center &middot; PSC-CUNY. <a href="collaborators.html">Meet our collaborators &rarr;</a></p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Ana Gonzalez-Nayeck</p>
+        <p>&copy; 2026 Baruch Microbial Biogeochemistry Lab</p>
     </footer>
+    <script src="carousel.js" defer></script>
 </body>
 </html>
